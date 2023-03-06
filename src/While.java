@@ -1,4 +1,4 @@
-public class question_one {
+public class While {
 
     public static void main(String[] args) {
 

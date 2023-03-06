@@ -1,4 +1,4 @@
-public class question_four {
+public class CalculoDistancia {
 
     public static void main(String[] args) {
 

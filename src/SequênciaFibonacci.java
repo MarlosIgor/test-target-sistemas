@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class question_two {
+public class SequênciaFibonacci {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class question_two {
         num = input.nextInt();
 
         if (num == 0 || num == 1) {
-            System.out.println("O número informado pertence à sequência de Fibonacci.");
+            System.out.println("O número " + num + " pertence à sequência de Fibonacci.");
             pertence = true;
         }
 
@@ -22,17 +22,17 @@ public class question_two {
             b = c;
 
             if (c == num) {
-                System.out.println("O número informado pertence à sequência de Fibonacci.");
+                System.out.println("O número " + num + " pertence à sequência de Fibonacci.");
                 pertence = true;
                 break;
             }
         }
 
         if (!pertence) {
-            System.out.println("O número informado não pertence à sequência de Fibonacci.");
+            System.out.println("O número " + num + " não pertence à sequência de Fibonacci.");
         }
 
         input.close();
     }
 }
-// 55
+// O número 55 pertence à sequência de Fibonacci.

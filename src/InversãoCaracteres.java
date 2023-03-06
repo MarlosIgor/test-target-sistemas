@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-public class question_five {
+public class InversãoCaracteres {
 
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.print("Escreva algo para ser invertido : ");
         String string = scanner.nextLine();
         char[] lista_caracteres = string.toCharArray();
 
@@ -15,6 +16,7 @@ public class question_five {
             lista_caracteres[tamanho - 1 - i] = temp;
         }
         String string_invertida = new String(lista_caracteres);
-        System.out.println(string_invertida);
+        System.out.println("Resultado : " + string_invertida);
     }
 }
+// programa que inverta os caracteres de um string

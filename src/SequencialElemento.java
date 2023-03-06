@@ -1,4 +1,4 @@
-public class question_three {
+public class SequencialElemento {
 
     public static void main(String[] args) {
 
