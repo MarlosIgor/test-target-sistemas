@@ -42,7 +42,6 @@ public class FaturamentoDiárioDistribuidora {
                 .filter(faturamento -> faturamento > mediaMensal)
                 .count();
 
-        // Imprime os resultados
         System.out.println("Menor valor de faturamento diário: " + minFaturamento);
         System.out.println("Maior valor de faturamento diário: " + maxFaturamento);
         System.out.println("Número de dias com faturamento superior à média mensal: " + numDiasAcimaDaMedia);
